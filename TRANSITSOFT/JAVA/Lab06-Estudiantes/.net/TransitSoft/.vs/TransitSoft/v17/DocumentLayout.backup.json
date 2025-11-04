@@ -1,0 +1,350 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\evaluaciones\\2025-2\\Lab06-Estudiantes\\.net\\TransitSoft\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{304DA88D-290D-4220-8470-0329977C5126}|TransitSoftGestionVial\\TransitSoftGestionVial.csproj|E:\\evaluaciones\\2025-2\\Lab06-Estudiantes\\.net\\TransitSoft\\transitsoftgestionvial\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{304DA88D-290D-4220-8470-0329977C5126}|TransitSoftGestionVial\\TransitSoftGestionVial.csproj|solutionrelative:transitsoftgestionvial\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A7ECEF37-C596-4051-8295-EFED15E0B0B6}|TransitSoftPersistencia\\TransitSoftPersistencia.csproj|e:\\evaluaciones\\2025-2\\lab06-estudiantes\\.net\\transitsoft\\transitsoftpersistencia\\daoimpl\\infracciondaoimpl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A7ECEF37-C596-4051-8295-EFED15E0B0B6}|TransitSoftPersistencia\\TransitSoftPersistencia.csproj|solutionrelative:transitsoftpersistencia\\daoimpl\\infracciondaoimpl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A7ECEF37-C596-4051-8295-EFED15E0B0B6}|TransitSoftPersistencia\\TransitSoftPersistencia.csproj|E:\\evaluaciones\\2025-2\\Lab06-Estudiantes\\.net\\TransitSoft\\transitsoftpersistencia\\dao\\iinfracciondao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A7ECEF37-C596-4051-8295-EFED15E0B0B6}|TransitSoftPersistencia\\TransitSoftPersistencia.csproj|solutionrelative:transitsoftpersistencia\\dao\\iinfracciondao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1319A8EF-73FB-4010-B56B-A8F445D798A8}|TransitSoftNegocio\\TransitSoftNegocio.csproj|E:\\evaluaciones\\2025-2\\Lab06-Estudiantes\\.net\\TransitSoft\\transitsoftnegocio\\boimpl\\infraccionboimpl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1319A8EF-73FB-4010-B56B-A8F445D798A8}|TransitSoftNegocio\\TransitSoftNegocio.csproj|solutionrelative:transitsoftnegocio\\boimpl\\infraccionboimpl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1319A8EF-73FB-4010-B56B-A8F445D798A8}|TransitSoftNegocio\\TransitSoftNegocio.csproj|E:\\evaluaciones\\2025-2\\Lab06-Estudiantes\\.net\\TransitSoft\\transitsoftnegocio\\bo\\iinfraccionbo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1319A8EF-73FB-4010-B56B-A8F445D798A8}|TransitSoftNegocio\\TransitSoftNegocio.csproj|solutionrelative:transitsoftnegocio\\bo\\iinfraccionbo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5CC8329F-BA2D-4CC5-AB2F-68CBDDE93E44}|TransitSoftModelo\\TransitSoftModelo.csproj|E:\\evaluaciones\\2025-2\\Lab06-Estudiantes\\.net\\TransitSoft\\transitsoftmodelo\\infraccion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5CC8329F-BA2D-4CC5-AB2F-68CBDDE93E44}|TransitSoftModelo\\TransitSoftModelo.csproj|solutionrelative:transitsoftmodelo\\infraccion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{304DA88D-290D-4220-8470-0329977C5126}|TransitSoftGestionVial\\TransitSoftGestionVial.csproj|E:\\evaluaciones\\2025-2\\Lab06-Estudiantes\\.net\\TransitSoft\\transitsoftgestionvial\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{304DA88D-290D-4220-8470-0329977C5126}|TransitSoftGestionVial\\TransitSoftGestionVial.csproj|solutionrelative:transitsoftgestionvial\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{743F4614-6E94-4BFD-9FD9-9846D44E4C74}|TransitSoftDBManager\\TransitSoftDBManager.csproj|E:\\evaluaciones\\2025-2\\Lab06-Estudiantes\\.net\\TransitSoft\\transitsoftdbmanager\\dbfactoryprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{743F4614-6E94-4BFD-9FD9-9846D44E4C74}|TransitSoftDBManager\\TransitSoftDBManager.csproj|solutionrelative:transitsoftdbmanager\\dbfactoryprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{743F4614-6E94-4BFD-9FD9-9846D44E4C74}|TransitSoftDBManager\\TransitSoftDBManager.csproj|E:\\evaluaciones\\2025-2\\Lab06-Estudiantes\\.net\\TransitSoft\\transitsoftdbmanager\\mssqldbmanagerfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{743F4614-6E94-4BFD-9FD9-9846D44E4C74}|TransitSoftDBManager\\TransitSoftDBManager.csproj|solutionrelative:transitsoftdbmanager\\mssqldbmanagerfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{743F4614-6E94-4BFD-9FD9-9846D44E4C74}|TransitSoftDBManager\\TransitSoftDBManager.csproj|E:\\evaluaciones\\2025-2\\Lab06-Estudiantes\\.net\\TransitSoft\\transitsoftdbmanager\\mssqldbmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{743F4614-6E94-4BFD-9FD9-9846D44E4C74}|TransitSoftDBManager\\TransitSoftDBManager.csproj|solutionrelative:transitsoftdbmanager\\mssqldbmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{743F4614-6E94-4BFD-9FD9-9846D44E4C74}|TransitSoftDBManager\\TransitSoftDBManager.csproj|E:\\evaluaciones\\2025-2\\Lab06-Estudiantes\\.net\\TransitSoft\\transitsoftdbmanager\\dbmanagerfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{743F4614-6E94-4BFD-9FD9-9846D44E4C74}|TransitSoftDBManager\\TransitSoftDBManager.csproj|solutionrelative:transitsoftdbmanager\\dbmanagerfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{743F4614-6E94-4BFD-9FD9-9846D44E4C74}|TransitSoftDBManager\\TransitSoftDBManager.csproj|E:\\evaluaciones\\2025-2\\Lab06-Estudiantes\\.net\\TransitSoft\\transitsoftdbmanager\\dbmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{743F4614-6E94-4BFD-9FD9-9846D44E4C74}|TransitSoftDBManager\\TransitSoftDBManager.csproj|solutionrelative:transitsoftdbmanager\\dbmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{743F4614-6E94-4BFD-9FD9-9846D44E4C74}|TransitSoftDBManager\\TransitSoftDBManager.csproj|E:\\evaluaciones\\2025-2\\Lab06-Estudiantes\\.net\\TransitSoft\\transitsoftdbmanager\\utils\\cadenaconexion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{743F4614-6E94-4BFD-9FD9-9846D44E4C74}|TransitSoftDBManager\\TransitSoftDBManager.csproj|solutionrelative:transitsoftdbmanager\\utils\\cadenaconexion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\evaluaciones\\2025-2\\Lab06\\.net\\TransitSoft\\TransitSoftGestionVial\\App.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{743F4614-6E94-4BFD-9FD9-9846D44E4C74}|TransitSoftDBManager\\TransitSoftDBManager.csproj|E:\\evaluaciones\\2025-2\\Lab06-Estudiantes\\.net\\TransitSoft\\transitsoftdbmanager\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{743F4614-6E94-4BFD-9FD9-9846D44E4C74}|TransitSoftDBManager\\TransitSoftDBManager.csproj|solutionrelative:transitsoftdbmanager\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5CC8329F-BA2D-4CC5-AB2F-68CBDDE93E44}|TransitSoftModelo\\TransitSoftModelo.csproj|E:\\evaluaciones\\2025-2\\Lab06-Estudiantes\\.net\\TransitSoft\\transitsoftmodelo\\packages.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{5CC8329F-BA2D-4CC5-AB2F-68CBDDE93E44}|TransitSoftModelo\\TransitSoftModelo.csproj|solutionrelative:transitsoftmodelo\\packages.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{743F4614-6E94-4BFD-9FD9-9846D44E4C74}|TransitSoftDBManager\\TransitSoftDBManager.csproj|E:\\evaluaciones\\2025-2\\Lab06-Estudiantes\\.net\\TransitSoft\\transitsoftdbmanager\\packages.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{743F4614-6E94-4BFD-9FD9-9846D44E4C74}|TransitSoftDBManager\\TransitSoftDBManager.csproj|solutionrelative:transitsoftdbmanager\\packages.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\evaluaciones\\2025-2\\Lab04\\sql\\MSSQL\\procedimientos.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\evaluaciones\\2025-2\\Lab04\\sql\\MSSQL\\tablas.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{743F4614-6E94-4BFD-9FD9-9846D44E4C74}|TransitSoftDBManager\\TransitSoftDBManager.csproj|E:\\evaluaciones\\2025-2\\Lab06-Estudiantes\\.net\\TransitSoft\\transitsoftdbmanager\\utils\\tipodb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{743F4614-6E94-4BFD-9FD9-9846D44E4C74}|TransitSoftDBManager\\TransitSoftDBManager.csproj|solutionrelative:transitsoftdbmanager\\utils\\tipodb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 10,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "MSSQLDBManagerFactory.cs",
+              "DocumentMoniker": "E:\\evaluaciones\\2025-2\\Lab06-Estudiantes\\.net\\TransitSoft\\TransitSoftDBManager\\MSSQLDBManagerFactory.cs",
+              "RelativeDocumentMoniker": "TransitSoftDBManager\\MSSQLDBManagerFactory.cs",
+              "ToolTip": "E:\\evaluaciones\\2025-2\\Lab06-Estudiantes\\.net\\TransitSoft\\TransitSoftDBManager\\MSSQLDBManagerFactory.cs",
+              "RelativeToolTip": "TransitSoftDBManager\\MSSQLDBManagerFactory.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-22T00:55:52.233Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "DBManager.cs",
+              "DocumentMoniker": "E:\\evaluaciones\\2025-2\\Lab06-Estudiantes\\.net\\TransitSoft\\TransitSoftDBManager\\DBManager.cs",
+              "RelativeDocumentMoniker": "TransitSoftDBManager\\DBManager.cs",
+              "ToolTip": "E:\\evaluaciones\\2025-2\\Lab06-Estudiantes\\.net\\TransitSoft\\TransitSoftDBManager\\DBManager.cs",
+              "RelativeToolTip": "TransitSoftDBManager\\DBManager.cs",
+              "ViewState": "AgIAACMAAAAAAAAAAAA1wBcAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-22T00:55:34.142Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "CadenaConexion.cs",
+              "DocumentMoniker": "E:\\evaluaciones\\2025-2\\Lab06-Estudiantes\\.net\\TransitSoft\\TransitSoftDBManager\\Utils\\CadenaConexion.cs",
+              "RelativeDocumentMoniker": "TransitSoftDBManager\\Utils\\CadenaConexion.cs",
+              "ToolTip": "E:\\evaluaciones\\2025-2\\Lab06-Estudiantes\\.net\\TransitSoft\\TransitSoftDBManager\\Utils\\CadenaConexion.cs",
+              "RelativeToolTip": "TransitSoftDBManager\\Utils\\CadenaConexion.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAcwB8AAABGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-22T00:54:56.429Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\evaluaciones\\2025-2\\Lab06-Estudiantes\\.net\\TransitSoft\\TransitSoftGestionVial\\Program.cs",
+              "RelativeDocumentMoniker": "TransitSoftGestionVial\\Program.cs",
+              "ToolTip": "E:\\evaluaciones\\2025-2\\Lab06-Estudiantes\\.net\\TransitSoft\\TransitSoftGestionVial\\Program.cs",
+              "RelativeToolTip": "TransitSoftGestionVial\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-22T00:53:11.214Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Infraccion.cs",
+              "DocumentMoniker": "E:\\evaluaciones\\2025-2\\Lab06-Estudiantes\\.net\\TransitSoft\\TransitSoftModelo\\Infraccion.cs",
+              "RelativeDocumentMoniker": "TransitSoftModelo\\Infraccion.cs",
+              "ToolTip": "E:\\evaluaciones\\2025-2\\Lab06-Estudiantes\\.net\\TransitSoft\\TransitSoftModelo\\Infraccion.cs",
+              "RelativeToolTip": "TransitSoftModelo\\Infraccion.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAGEAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-22T00:59:00.424Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "IInfraccionBO.cs",
+              "DocumentMoniker": "E:\\evaluaciones\\2025-2\\Lab06-Estudiantes\\.net\\TransitSoft\\TransitSoftNegocio\\BO\\IInfraccionBO.cs",
+              "RelativeDocumentMoniker": "TransitSoftNegocio\\BO\\IInfraccionBO.cs",
+              "ToolTip": "E:\\evaluaciones\\2025-2\\Lab06-Estudiantes\\.net\\TransitSoft\\TransitSoftNegocio\\BO\\IInfraccionBO.cs",
+              "RelativeToolTip": "TransitSoftNegocio\\BO\\IInfraccionBO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-22T01:31:21.656Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "InfraccionBOImpl.cs",
+              "DocumentMoniker": "E:\\evaluaciones\\2025-2\\Lab06-Estudiantes\\.net\\TransitSoft\\TransitSoftNegocio\\BOImpl\\InfraccionBOImpl.cs",
+              "RelativeDocumentMoniker": "TransitSoftNegocio\\BOImpl\\InfraccionBOImpl.cs",
+              "ToolTip": "E:\\evaluaciones\\2025-2\\Lab06-Estudiantes\\.net\\TransitSoft\\TransitSoftNegocio\\BOImpl\\InfraccionBOImpl.cs",
+              "RelativeToolTip": "TransitSoftNegocio\\BOImpl\\InfraccionBOImpl.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-22T01:31:37.568Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "InfraccionDAOImpl.cs",
+              "DocumentMoniker": "E:\\evaluaciones\\2025-2\\Lab06-Estudiantes\\.net\\TransitSoft\\TransitSoftPersistencia\\DAOImpl\\InfraccionDAOImpl.cs",
+              "RelativeDocumentMoniker": "TransitSoftPersistencia\\DAOImpl\\InfraccionDAOImpl.cs",
+              "ToolTip": "E:\\evaluaciones\\2025-2\\Lab06-Estudiantes\\.net\\TransitSoft\\TransitSoftPersistencia\\DAOImpl\\InfraccionDAOImpl.cs",
+              "RelativeToolTip": "TransitSoftPersistencia\\DAOImpl\\InfraccionDAOImpl.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAA2wBkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-22T01:07:25.307Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "DBFactoryProvider.cs",
+              "DocumentMoniker": "E:\\evaluaciones\\2025-2\\Lab06-Estudiantes\\.net\\TransitSoft\\TransitSoftDBManager\\DBFactoryProvider.cs",
+              "RelativeDocumentMoniker": "TransitSoftDBManager\\DBFactoryProvider.cs",
+              "ToolTip": "E:\\evaluaciones\\2025-2\\Lab06-Estudiantes\\.net\\TransitSoft\\TransitSoftDBManager\\DBFactoryProvider.cs",
+              "RelativeToolTip": "TransitSoftDBManager\\DBFactoryProvider.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-22T00:55:24.228Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "IInfraccionDAO.cs",
+              "DocumentMoniker": "E:\\evaluaciones\\2025-2\\Lab06-Estudiantes\\.net\\TransitSoft\\TransitSoftPersistencia\\DAO\\IInfraccionDAO.cs",
+              "RelativeDocumentMoniker": "TransitSoftPersistencia\\DAO\\IInfraccionDAO.cs",
+              "ToolTip": "E:\\evaluaciones\\2025-2\\Lab06-Estudiantes\\.net\\TransitSoft\\TransitSoftPersistencia\\DAO\\IInfraccionDAO.cs",
+              "RelativeToolTip": "TransitSoftPersistencia\\DAO\\IInfraccionDAO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-22T01:03:53.044Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "App.config",
+              "DocumentMoniker": "E:\\evaluaciones\\2025-2\\Lab06-Estudiantes\\.net\\TransitSoft\\TransitSoftGestionVial\\App.config",
+              "RelativeDocumentMoniker": "TransitSoftGestionVial\\App.config",
+              "ToolTip": "E:\\evaluaciones\\2025-2\\Lab06-Estudiantes\\.net\\TransitSoft\\TransitSoftGestionVial\\App.config",
+              "RelativeToolTip": "TransitSoftGestionVial\\App.config",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAABNAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2025-09-22T01:38:50.111Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "DBManagerFactory.cs",
+              "DocumentMoniker": "E:\\evaluaciones\\2025-2\\Lab06-Estudiantes\\.net\\TransitSoft\\TransitSoftDBManager\\DBManagerFactory.cs",
+              "RelativeDocumentMoniker": "TransitSoftDBManager\\DBManagerFactory.cs",
+              "ToolTip": "E:\\evaluaciones\\2025-2\\Lab06-Estudiantes\\.net\\TransitSoft\\TransitSoftDBManager\\DBManagerFactory.cs",
+              "RelativeToolTip": "TransitSoftDBManager\\DBManagerFactory.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-22T00:55:39.929Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "app.config",
+              "DocumentMoniker": "E:\\evaluaciones\\2025-2\\Lab06-Estudiantes\\.net\\TransitSoft\\TransitSoftDBManager\\app.config",
+              "RelativeDocumentMoniker": "TransitSoftDBManager\\app.config",
+              "ToolTip": "E:\\evaluaciones\\2025-2\\Lab06-Estudiantes\\.net\\TransitSoft\\TransitSoftDBManager\\app.config",
+              "RelativeToolTip": "TransitSoftDBManager\\app.config",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2025-09-23T07:43:08.18Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "MSSQLDBManager.cs",
+              "DocumentMoniker": "E:\\evaluaciones\\2025-2\\Lab06-Estudiantes\\.net\\TransitSoft\\TransitSoftDBManager\\MSSQLDBManager.cs",
+              "RelativeDocumentMoniker": "TransitSoftDBManager\\MSSQLDBManager.cs",
+              "ToolTip": "E:\\evaluaciones\\2025-2\\Lab06-Estudiantes\\.net\\TransitSoft\\TransitSoftDBManager\\MSSQLDBManager.cs",
+              "RelativeToolTip": "TransitSoftDBManager\\MSSQLDBManager.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAywCIAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-22T00:55:44.274Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "App.config",
+              "DocumentMoniker": "E:\\evaluaciones\\2025-2\\Lab06\\.net\\TransitSoft\\TransitSoftGestionVial\\App.config",
+              "RelativeDocumentMoniker": "..\\..\\..\\Lab06\\.net\\TransitSoft\\TransitSoftGestionVial\\App.config",
+              "ToolTip": "E:\\evaluaciones\\2025-2\\Lab06\\.net\\TransitSoft\\TransitSoftGestionVial\\App.config",
+              "RelativeToolTip": "..\\..\\..\\Lab06\\.net\\TransitSoft\\TransitSoftGestionVial\\App.config",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2025-09-23T12:59:37.588Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "packages.config",
+              "DocumentMoniker": "E:\\evaluaciones\\2025-2\\Lab06-Estudiantes\\.net\\TransitSoft\\TransitSoftDBManager\\packages.config",
+              "RelativeDocumentMoniker": "TransitSoftDBManager\\packages.config",
+              "ToolTip": "E:\\evaluaciones\\2025-2\\Lab06-Estudiantes\\.net\\TransitSoft\\TransitSoftDBManager\\packages.config",
+              "RelativeToolTip": "TransitSoftDBManager\\packages.config",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAABlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2025-09-23T07:43:32.101Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "packages.config",
+              "DocumentMoniker": "E:\\evaluaciones\\2025-2\\Lab06-Estudiantes\\.net\\TransitSoft\\TransitSoftModelo\\packages.config",
+              "RelativeDocumentMoniker": "TransitSoftModelo\\packages.config",
+              "ToolTip": "E:\\evaluaciones\\2025-2\\Lab06-Estudiantes\\.net\\TransitSoft\\TransitSoftModelo\\packages.config",
+              "RelativeToolTip": "TransitSoftModelo\\packages.config",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2025-09-23T07:53:03.712Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "tablas.sql",
+              "DocumentMoniker": "E:\\evaluaciones\\2025-2\\Lab04\\sql\\MSSQL\\tablas.sql",
+              "RelativeDocumentMoniker": "..\\..\\..\\Lab04\\sql\\MSSQL\\tablas.sql",
+              "ToolTip": "E:\\evaluaciones\\2025-2\\Lab04\\sql\\MSSQL\\tablas.sql",
+              "RelativeToolTip": "..\\..\\..\\Lab04\\sql\\MSSQL\\tablas.sql",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2025-09-22T01:15:18.788Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "procedimientos.sql",
+              "DocumentMoniker": "E:\\evaluaciones\\2025-2\\Lab04\\sql\\MSSQL\\procedimientos.sql",
+              "RelativeDocumentMoniker": "..\\..\\..\\Lab04\\sql\\MSSQL\\procedimientos.sql",
+              "ToolTip": "E:\\evaluaciones\\2025-2\\Lab04\\sql\\MSSQL\\procedimientos.sql",
+              "RelativeToolTip": "..\\..\\..\\Lab04\\sql\\MSSQL\\procedimientos.sql",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2025-09-22T01:12:19.24Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "TipoDB.cs",
+              "DocumentMoniker": "E:\\evaluaciones\\2025-2\\Lab06-Estudiantes\\.net\\TransitSoft\\TransitSoftDBManager\\Utils\\TipoDB.cs",
+              "RelativeDocumentMoniker": "TransitSoftDBManager\\Utils\\TipoDB.cs",
+              "ToolTip": "E:\\evaluaciones\\2025-2\\Lab06-Estudiantes\\.net\\TransitSoft\\TransitSoftDBManager\\Utils\\TipoDB.cs",
+              "RelativeToolTip": "TransitSoftDBManager\\Utils\\TipoDB.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-22T00:55:16.49Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
