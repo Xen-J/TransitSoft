@@ -1,0 +1,5 @@
+# Created at 2025-10-17T17:33:34.524
+Boot Manifest-JAR contains absolute paths in classpath 'T:\Pregunta 02 - Estudiantes\EX01 - Pregunta 02 - Estudiantes\TransitSoft\TransitSoftNegocio\target\test-classes'
+Hint: <argLine>-Djdk.net.URLClassPath.disableClassPathURLCheck=true</argLine>
+'other' has different root
+

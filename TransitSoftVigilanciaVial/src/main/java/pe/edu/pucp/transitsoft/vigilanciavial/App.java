@@ -8,6 +8,7 @@ import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
 import java.util.List;
+import java.util.ResourceBundle;
 import java.util.UUID;
 import pe.edu.pucp.transitsoft.bo.CapturaBO;
 import pe.edu.pucp.transitsoft.bo.InfraccionBO;
@@ -35,7 +36,11 @@ public class App {
     
     public static void serializarInfracciones(List<Infraccion> infracciones) {
         try {
-            Path directory = Paths.get("inbox");
+            ResourceBundle bundle = ResourceBundle.getBundle("app");
+            String inboxPath = bundle.getString("inbox.path");
+            
+            Path directory = Paths.get(inboxPath);
+            //Path directory = Paths.get("inbox");
             Files.createDirectories(directory);
 
             ObjectMapper mapper = new ObjectMapper();

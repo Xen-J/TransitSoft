@@ -63,6 +63,16 @@ public class CapturaDAOImpl implements CapturaDAO{
     }
 
     @Override
+    public int modificar2(Captura captura) {
+        Map<Integer,Object> parametrosEntrada = new HashMap<>();
+        parametrosEntrada.put(1, captura.getEstado());
+        parametrosEntrada.put(2,captura.getId());
+        int resultado = DBManager.getInstance().ejecutarProcedimiento("modificarEstadoCaptura", parametrosEntrada, null);
+        System.out.println("Se ha realizado la modificacion del captura");
+        return resultado;
+    }
+
+    @Override
     public int eliminar(int idObjeto) {
         throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
     }
