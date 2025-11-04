@@ -27,7 +27,11 @@ public class App {
         InfraccionBO infraccionBO = new InfraccionBOImpl();
         List<Infraccion> infracciones = 
                 infraccionBO.crearInfracciones(capturasConExceso);
+        
+        capturasConExceso.forEach(capturaBO::actualizar);
+        
         serializarInfracciones(infracciones);
+        System.out.println("Las capturas fueron procesadas satisfactoriamente.");
     }
     
     public static void serializarInfracciones(List<Infraccion> infracciones) {
@@ -36,6 +40,7 @@ public class App {
             String inboxPath = bundle.getString("inbox.path");
             
             Path directory = Paths.get(inboxPath);
+            //Path directory = Paths.get("inbox");
             Files.createDirectories(directory);
 
             ObjectMapper mapper = new ObjectMapper();
@@ -48,7 +53,6 @@ public class App {
                 mapper.writeValue(file, infraccion);
                 System.out.println("Infraccion serializada en: " + file.getAbsolutePath());
             }
-
         } catch (IOException e) {
             System.err.println("Error al serializar las infracciones: " + e.getMessage());
         } catch (Exception e) {

@@ -43,7 +43,7 @@ public class DBManager {
                 + "true;integratedSecurity=false;";
                 
         this.user = datos.getProperty("usuario");
-        this.password = datos.getProperty("password");
+        this.password = Encriptamiento.desencriptar(datos.getProperty("passwordEncriptado"),datos.getProperty("key"));
         
     }
     
@@ -74,6 +74,7 @@ public class DBManager {
         }
     }
     
+    //Métodos para llamadas a Procedimientos Almacenados
     public int ejecutarProcedimiento(String nombreProcedimiento, Map<Integer, Object> parametrosEntrada, Map<Integer, Object> parametrosSalida) {
         int resultado = 0;
         try{

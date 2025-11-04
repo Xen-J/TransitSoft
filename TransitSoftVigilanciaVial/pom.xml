@@ -23,5 +23,13 @@
     <properties>
         <maven.compiler.release>24</maven.compiler.release>
         <exec.mainClass>pe.edu.pucp.transitsoft.vigilanciavial.App</exec.mainClass>
+    <groupId>pe.edu.pucp.softprog</groupId>
+    <artifactId>TransitSoftVigilanciaVial</artifactId>
+    <version>1.0</version>
+    <packaging>jar</packaging>
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <maven.compiler.release>24</maven.compiler.release>
+        <exec.mainClass>TransitSoftVigilanciaVial</exec.mainClass>
     </properties>
 </project>

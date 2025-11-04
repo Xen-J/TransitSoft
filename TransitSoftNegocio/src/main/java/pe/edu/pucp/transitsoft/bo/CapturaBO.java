@@ -5,5 +5,5 @@ import pe.edu.pucp.transitsoft.modelo.Captura;
 
 public interface CapturaBO {
     List<Captura> obtenerCapturasConExcesoDeVelocidad();
-    void actualizar(Captura modelo);
+    void actualizar(Captura captura);
 }

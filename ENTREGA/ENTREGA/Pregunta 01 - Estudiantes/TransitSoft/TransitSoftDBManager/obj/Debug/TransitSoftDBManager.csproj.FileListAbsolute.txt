@@ -1,0 +1,6 @@
+T:\Pregunta 01 - Estudiantes\TransitSoft\TransitSoftDBManager\bin\Debug\TransitSoftDBManager.dll
+T:\Pregunta 01 - Estudiantes\TransitSoft\TransitSoftDBManager\bin\Debug\TransitSoftDBManager.pdb
+T:\Pregunta 01 - Estudiantes\TransitSoft\TransitSoftDBManager\obj\Debug\TransitSoftDBManager.csproj.AssemblyReference.cache
+T:\Pregunta 01 - Estudiantes\TransitSoft\TransitSoftDBManager\obj\Debug\TransitSoftDBManager.csproj.CoreCompileInputs.cache
+T:\Pregunta 01 - Estudiantes\TransitSoft\TransitSoftDBManager\obj\Debug\TransitSoftDBManager.dll
+T:\Pregunta 01 - Estudiantes\TransitSoft\TransitSoftDBManager\obj\Debug\TransitSoftDBManager.pdb

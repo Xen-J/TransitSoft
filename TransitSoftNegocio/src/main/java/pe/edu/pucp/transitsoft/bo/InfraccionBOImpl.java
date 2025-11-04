@@ -14,5 +14,4 @@ public class InfraccionBOImpl implements InfraccionBO {
             .map(mapper::map)
             .collect(Collectors.toList());
     }
-    
 }
