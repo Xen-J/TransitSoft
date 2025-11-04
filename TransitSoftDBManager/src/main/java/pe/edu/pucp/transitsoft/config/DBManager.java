@@ -1,5 +1,4 @@
 package pe.edu.pucp.transitsoft.config;
-
 import java.io.IOException;
 import java.io.InputStream;
 import java.sql.CallableStatement;
@@ -10,7 +9,6 @@ import java.sql.SQLException;
 import java.sql.Types;
 import java.util.Map;
 import java.util.Properties;
-
 public class DBManager {
     
     private static DBManager dbManager;
