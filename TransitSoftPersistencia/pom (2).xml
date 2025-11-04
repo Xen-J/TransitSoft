@@ -54,12 +54,6 @@
       <artifactId>TransitSoftModelo</artifactId>
       <version>${project.version}</version>
     </dependency>
-    <dependency>
-      <groupId>pe.edu.pucp.transitsoft</groupId>
-      <artifactId>TransitSoftDBManager</artifactId>
-      <version>1.0</version>
-      <type>jar</type>
-    </dependency>
   </dependencies>
 
   <build>

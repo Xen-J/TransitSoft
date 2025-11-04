@@ -4,35 +4,32 @@ import java.util.ArrayList;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.sql.Types;
+import java.util.Date;
 import java.util.HashMap;
 import java.util.Map;
 import pe.edu.pucp.transitsoft.config.DBManager;
 import pe.edu.pucp.transitsoft.dao.CapturaDAO;
+import pe.edu.pucp.transitsoft.modelo.Camara;
 import pe.edu.pucp.transitsoft.modelo.Captura;
+import pe.edu.pucp.transitsoft.modelo.EstadoCaptura;
 //import pe.edu.pucp.transitsoft.modelo.EstadoCaptura;
 
 public class CapturaDAOImpl implements CapturaDAO{
-
     private ResultSet rs;
-    
-    
-    /* por que hay cerraer conexion en listar todos y no en insertar
-    o en modificar?
-    */
     
     @Override
     public boolean actualizar(Captura captura) {
         int idCap = captura.getId();
-        int resultado =0; //por defecto
+        
         if (obtenerPorId(idCap) != null){ //obtenerPorId maneja las excepciones
             Map<Integer, Object> parametrosEntrada = new HashMap<>();
             parametrosEntrada.put(1, captura.getEstado().toString());
             parametrosEntrada.put(2, idCap);
-            resultado = DBManager.getInstance().ejecutarProcedimiento(
-                    "modificarEstadoCaptura", parametrosEntrada, null);
-            //Si se actualiza a 1, se encontró y se modificó
-        }
-        return resultado == 1; //Se modificó una captura
+            rs = DBManager.getInstance().ejecutarProcedimientoLectura(
+                    "modificarEstadoCaptura", parametrosEntrada);
+            return true; //Se encontró y se modificó
+        }else
+            return false; //No se encontró
     }
     
     @Override
@@ -66,6 +63,16 @@ public class CapturaDAOImpl implements CapturaDAO{
     }
 
     @Override
+    public int modificar2(Captura captura) {
+        Map<Integer,Object> parametrosEntrada = new HashMap<>();
+        parametrosEntrada.put(1, captura.getEstado());
+        parametrosEntrada.put(2,captura.getId());
+        int resultado = DBManager.getInstance().ejecutarProcedimiento("modificarEstadoCaptura", parametrosEntrada, null);
+        System.out.println("Se ha realizado la modificacion del captura");
+        return resultado;
+    }
+
+    @Override
     public int eliminar(int idObjeto) {
         throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
     }
@@ -93,27 +100,24 @@ public class CapturaDAOImpl implements CapturaDAO{
     @Override
     public ArrayList<Captura> listarTodos() {
         ArrayList<Captura> capturas = null;
-        rs = DBManager.getInstance().ejecutarProcedimientoLectura("listarCapturas", null);
-        System.out.println("Lectura de empleados...");
+        DBManager.getInstance().ejecutarProcedimiento("listarCapturas", null, null);
+        System.out.println("Listando Capturas...");
         try{
             while(rs.next()){
                 if(capturas == null) capturas = new ArrayList<>();
-                Captura e = new Captura();
-//                e.setIdPersona(rs.getInt("id_empleado"));
-//                e.setDni(rs.getString("DNI"));
-//                e.setNombre(rs.getString("nombre"));
-//                e.setApellidoPaterno(rs.getString("apellido_paterno"));
-//                e.setSexo(rs.getString("sexo").charAt(0));
-//                e.setFechaNacimiento(rs.getDate("fecha_nacimiento"));
-//                e.setCargo(rs.getString("cargo"));
-//                e.setSueldo(rs.getDouble("sueldo"));
-                
-//                Area area = new Area();
-//                area.setIdArea(rs.getInt("id_area"));
-//                area.setNombre(rs.getString("nombre_area"));
-//                
-//                e.setArea(area);
-                capturas.add(e);
+                Captura c = new Captura();
+                c.setId(rs.getInt("id"));
+                c.setPlaca(rs.getString("placa"));
+                c.setVelocidad(rs.getDouble("velocidad"));
+                c.setFechaCaptura(rs.getDate("fecha_captura"));
+                if("REGISTRADO".equals(rs.getString("estado")))
+                    c.setEstado(EstadoCaptura.REGISTRADO);
+                else
+                    c.setEstado(EstadoCaptura.PROCESADO);
+                Camara camara = new Camara();
+                camara.setId(rs.getInt("id_camara"));
+                c.setCamara(camara);
+                capturas.add(c);
             }
         }catch(SQLException ex){
             System.out.println(ex.getMessage());
@@ -122,40 +126,5 @@ public class CapturaDAOImpl implements CapturaDAO{
         }
         return capturas;
     }
-    
-    
-//    @Override
-//    public ArrayList<Empleado> listarTodos() {
-//        ArrayList<Empleado> empleados = null;
-//        rs = DBManager.getInstance().ejecutarProcedimientoLectura("LISTAR_EMPLEADOS_TODOS", null);
-//        System.out.println("Lectura de empleados...");
-//        try{
-//            while(rs.next()){
-//                if(empleados == null) empleados = new ArrayList<>();
-//                Empleado e = new Empleado();
-//                e.setIdPersona(rs.getInt("id_empleado"));
-//                e.setDni(rs.getString("DNI"));
-//                e.setNombre(rs.getString("nombre"));
-//                e.setApellidoPaterno(rs.getString("apellido_paterno"));
-//                e.setSexo(rs.getString("sexo").charAt(0));
-//                e.setFechaNacimiento(rs.getDate("fecha_nacimiento"));
-//                e.setCargo(rs.getString("cargo"));
-//                e.setSueldo(rs.getDouble("sueldo"));
-//                
-//                Area area = new Area();
-//                area.setIdArea(rs.getInt("id_area"));
-//                area.setNombre(rs.getString("nombre_area"));
-//                
-//                e.setArea(area);
-//                empleados.add(e);
-//            }
-//        }catch(SQLException ex){
-//            System.out.println(ex.getMessage());
-//        }finally{
-//            DBManager.getInstance().cerrarConexion();
-//        }
-//        return empleados;
-//    }
-    
     
 }

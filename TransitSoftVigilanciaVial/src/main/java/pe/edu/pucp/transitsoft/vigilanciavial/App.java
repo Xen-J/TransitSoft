@@ -7,7 +7,6 @@ import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
-import java.util.ArrayList;
 import java.util.List;
 import java.util.ResourceBundle;
 import java.util.UUID;
@@ -22,16 +21,17 @@ public class App {
     
     public static void main(String[] args) {
         CapturaBO capturaBO = new CapturaBOImpl();
-        ArrayList<Captura> capturasConExceso = 
+        List<Captura> capturasConExceso = 
                 capturaBO.obtenerCapturasConExcesoDeVelocidad();
         
         InfraccionBO infraccionBO = new InfraccionBOImpl();
         List<Infraccion> infracciones = 
                 infraccionBO.crearInfracciones(capturasConExceso);
         
-        capturaBO.actualizar(modelo);
+        capturasConExceso.forEach(capturaBO::actualizar);
         
         serializarInfracciones(infracciones);
+        System.out.println("Las capturas fueron procesadas satisfactoriamente.");
     }
     
     public static void serializarInfracciones(List<Infraccion> infracciones) {
@@ -40,6 +40,7 @@ public class App {
             String inboxPath = bundle.getString("inbox.path");
             
             Path directory = Paths.get(inboxPath);
+            //Path directory = Paths.get("inbox");
             Files.createDirectories(directory);
 
             ObjectMapper mapper = new ObjectMapper();
@@ -52,7 +53,6 @@ public class App {
                 mapper.writeValue(file, infraccion);
                 System.out.println("Infraccion serializada en: " + file.getAbsolutePath());
             }
-
         } catch (IOException e) {
             System.err.println("Error al serializar las infracciones: " + e.getMessage());
         } catch (Exception e) {

@@ -17,7 +17,7 @@
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-    <maven.compiler.release>17</maven.compiler.release>
+    <maven.compiler.release>24</maven.compiler.release>
   </properties>
 
   <dependencyManagement>
@@ -53,6 +53,12 @@
       <groupId>${project.groupId}</groupId>
       <artifactId>TransitSoftModelo</artifactId>
       <version>${project.version}</version>
+    </dependency>
+    <dependency>
+      <groupId>pe.edu.pucp.transitsoft</groupId>
+      <artifactId>TransitSoftDBManager</artifactId>
+      <version>1.0</version>
+      <type>jar</type>
     </dependency>
   </dependencies>
 
@@ -101,4 +107,16 @@
       </plugins>
     </pluginManagement>
   </build>
+</project>
+-----------------------
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>pe.edu.pucp.softprog</groupId>
+    <artifactId>TransitSoftPersistencia</artifactId>
+    <version>1.0</version>
+    <packaging>jar</packaging>
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <maven.compiler.release>24</maven.compiler.release>
+        <exec.mainClass>TransitSoftPersistencia</exec.mainClass>
+    </properties>
 </project>

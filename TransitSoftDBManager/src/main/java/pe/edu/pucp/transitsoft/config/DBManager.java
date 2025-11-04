@@ -27,7 +27,7 @@ public class DBManager {
             InputStream inputStream = getClass().getClassLoader().getResourceAsStream(ruta);
             datos.load(inputStream);
         }catch(IOException ex){
-            System.out.println("Error leyendo el archivo de datos de conexion: " + ex.getMessage());
+            System.out.println("Error en la lectura del archivo de datos de conexion: " + ex.getMessage());
         }
         this.database = datos.getProperty("database");
         if(datos.getProperty("tipoBD").equals("mysql"))
