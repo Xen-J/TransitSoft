@@ -1,4 +1,4 @@
-package pe.edu.pucp.inf30.transitsoftmodelo;
+package pe.edu.pucp.transitsoft.tests.modelo;
 
 import static org.junit.jupiter.api.Assertions.assertTrue;
 
