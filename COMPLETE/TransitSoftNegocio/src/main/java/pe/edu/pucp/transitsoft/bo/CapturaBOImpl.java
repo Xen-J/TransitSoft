@@ -32,13 +32,13 @@ public class CapturaBOImpl implements CapturaBO {
             if(aVel.evaluarExceso(c))
                 capturasConExceso.add(c);
             actualizar(c);
-            } 
+        } 
         return capturasConExceso;
     }
     
     @Override
-    public void actualizar(Captura captura) {
-        capturaDao.actualizar(captura);
+    public void actualizar(Captura modelo) {
+        capturaDao.actualizar(modelo);
     }
     
     protected AnalizadorDeVelocidad analizador(Captura captura) {
