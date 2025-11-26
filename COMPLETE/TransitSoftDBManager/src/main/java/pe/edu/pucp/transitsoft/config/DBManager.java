@@ -9,6 +9,9 @@ import java.sql.SQLException;
 import java.sql.Types;
 import java.util.Map;
 import java.util.Properties;
+
+///----TODO: ACTUALIZAR PARA PERMITIR EL INSERT LAST DE MYSQL Y DE MSSQL
+
 public class DBManager {
     
     private static DBManager dbManager;
